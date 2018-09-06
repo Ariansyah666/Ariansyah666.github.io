@@ -1,9 +1,9 @@
 <?php
-$name=$_POST['name'];
+$name=$_POST['nama'];
 $email=$_POST['email'];
-$subject=$_POST['subject'];
-$message=$_POST['message'];
-$to="info@website.com";
+$subject=$_POST['telp'];
+$message=$_POST['pesan'];
+$to="akbatmetak@gmail.com";
 $message="Dear, <br /> <br />".$message;
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=iso-8859-1" . "\r\n";
@@ -20,7 +20,7 @@ window.location = 'index.html';
 }
 else { ?>
 <script language="javascript" type="text/javascript">
-alert('Message failed. Please, send an email to xxxx@email.co.id');
+alert('Message failed. Please, send an email to akbatmetal@gmail.com');
 window.location = 'index.html';
 </script>
 <?php
